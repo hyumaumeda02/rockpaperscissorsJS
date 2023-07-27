@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    padding: 30px 80px;
+}
+
+.heading {
+    padding: 0 15px;
+}
+.scoreLeftSide,
+.scoreRightSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choiceImg {
+    display: flex;
+    border: 2px solid black;
+    padding: 30px 80px;
+}
+
+.choiceRightSide,
+.choiceLeftSide {
+    padding: 0px 20px;
+}
+
+.choices {
+    padding: 30px 80px;
+    justify-content: space-around;
+}
